@@ -32,6 +32,14 @@ img {
   margin: 25px auto;
 }
 
+.separ-white {
+  width: 150px;
+  height: 3px;
+  border: none;
+  background: whitesmoke;
+  margin: 25px auto;
+}
+
 #skills,
 .row {
   padding: 50px 0;
@@ -44,7 +52,7 @@ img {
 }
 
 #about h2 {
-  color: #F24452;
+  color: whitesmoke;
 }
 
 #about .profile-picture {
@@ -83,7 +91,6 @@ header a {
 
 #skills {
   background: whitesmoke;
-  padding-bottom: 100px;
 }
 
 #skills h2 {
@@ -95,7 +102,7 @@ header a {
 }
 
 #skills .progress {
-  margin: 20px;
+  margin-bottom: 30px;
   height: 35px;
   -webkit-box-shadow: 2px 2px 5px grey;
           box-shadow: 2px 2px 5px grey;
@@ -111,8 +118,9 @@ header a {
   text-shadow: 0 2px 2px black;
 }
 
-.experiences {
+#experiences {
   background-color: #BF2A8B;
   height: 850px;
+  padding: 50px 0;
 }
 /*# sourceMappingURL=style.css.map */
