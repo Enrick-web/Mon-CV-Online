@@ -1,9 +1,9 @@
 // GENERAL
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 
 h1,
@@ -12,132 +12,130 @@ h3,
 h4,
 h5,
 h6 {
-    text-align: center;
+  text-align: center;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .separ {
-    width: 150px;
-    height: 3px;
-    border: none;
-    background: #F24452;
-    margin: 25px auto;
-
+  width: 150px;
+  height: 3px;
+  border: none;
+  background: #f24452;
+  margin: 25px auto;
 }
 
 .separ-white {
-    width: 150px;
-    height: 3px;
-    border: none;
-    background: whitesmoke;
-    margin: 25px auto;
+  width: 150px;
+  height: 3px;
+  border: none;
+  background: whitesmoke;
+  margin: 25px auto;
 }
 
 #skills,
 .row {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 // GENERAL END
 
 // ABOUT
 #about {
-    background: #392359;
-    padding: 100px;
+  background: #392359;
+  padding: 100px;
+  color: whitesmoke;
+
+  h2 {
     color: whitesmoke;
+  }
 
-    h2 {
-        color: whitesmoke;
-    }
+  .profile-picture {
+    display: flex;
+  }
 
-    .profile-picture {
-        display: flex;
-    }
+  .heading {
+    text-align: center;
+  }
 
-    .heading {
-        text-align: center;
-    }
-
-    .btn {
-        margin: 50px 0 0 0;
-    }
+  .btn {
+    margin: 50px 0 0 0;
+  }
 }
 
 // HEADER
 header {
-    background: rgba(0, 0, 0, 0);
-    height: 0;
+  background: rgba(0, 0, 0, 0);
+  height: 0;
 
-    nav {
-        z-index: 1;
-        height: 80px;
+  nav {
+    z-index: 1;
+    height: 100px;
 
-        img {
-            width: 130px;
-            height: auto;
-        }
+    img {
+      width: 130px;
+      height: auto;
     }
+  }
 
-    .navbar-brand {
-        color: whitesmoke;
-        font-family: 'Montserrat Alternates',
-            sans-serif;
+  .navbar-brand {
+    color: whitesmoke;
+    font-family: "Montserrat Alternates", sans-serif;
 
-        font-size: 2em;
-    }
+    font-size: 2em;
+  }
 
-    a {
-        color: whitesmoke;
-        font-size: 1.2em;
-    }
+  a {
+    color: whitesmoke;
+    font-size: 1.2em;
+  }
 }
 
 // HEADER END
 
 // SKILLS
 #skills {
-    background: whitesmoke;
+  background: whitesmoke;
 
-    h2 {
-        margin-bottom: 50px;
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  .row {
+    padding: 20px;
+  }
+
+  .progress {
+    margin-bottom: 30px;
+    height: 35px;
+    box-shadow: 2px 2px 5px grey;
+
+    .progress-bar {
+      padding: 0;
+      margin: 0;
+      background-color: #f24452;
     }
 
-    .row {
-        padding: 20px;
+    h5 {
+      text-shadow: 0 2px 2px black;
     }
-
-    .progress {
-        margin-bottom: 30px;
-        height: 35px;
-        box-shadow: 2px 2px 5px grey;
-
-        .progress-bar {
-            padding: 0;
-            margin: 0;
-            background-color: #F24452;
-        }
-
-        h5 {
-            text-shadow: 0 2px 2px black;
-        }
-    }
+  }
 }
 
 // SKILLS END
 
 // EXPERIENCES
 #experiences {
-    background-color: #BF2A8B;
-    height: 850px;
-    padding: 50px 0;
+  background-color: #bf2a8b;
+  height: 850px;
+  padding: 50px 0;
 }
 
 // EXPERIENCES END

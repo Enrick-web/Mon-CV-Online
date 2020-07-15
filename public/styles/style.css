@@ -28,7 +28,7 @@ img {
   width: 150px;
   height: 3px;
   border: none;
-  background: #F24452;
+  background: #f24452;
   margin: 25px auto;
 }
 
@@ -76,7 +76,7 @@ header {
 
 header nav {
   z-index: 1;
-  height: 80px;
+  height: 100px;
 }
 
 header nav img {
@@ -86,7 +86,7 @@ header nav img {
 
 header .navbar-brand {
   color: whitesmoke;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 2em;
 }
 
@@ -117,7 +117,7 @@ header a {
 #skills .progress .progress-bar {
   padding: 0;
   margin: 0;
-  background-color: #F24452;
+  background-color: #f24452;
 }
 
 #skills .progress h5 {
@@ -125,7 +125,7 @@ header a {
 }
 
 #experiences {
-  background-color: #BF2A8B;
+  background-color: #bf2a8b;
   height: 850px;
   padding: 50px 0;
 }
