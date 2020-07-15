@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.separ {
+  width: 150px;
+  height: 3px;
+  border: none;
+  background: #F24452;
+  margin: 25px auto;
+}
+
+#skills,
+.row {
+  padding: 50px 0;
+}
+
+#about {
+  background: #392359;
+  padding: 100px;
+  color: whitesmoke;
+}
+
+#about h3 {
+  text-align: center;
+}
+
+#about .profile-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about .heading {
+  text-align: center;
+}
+
+#about .btn {
+  margin: 50px 0 0 0;
+}
+
+header {
+  background: rgba(0, 0, 0, 0);
+  height: 0;
+}
+
+header nav {
+  z-index: 1;
+}
+
+header .navbar-brand {
+  color: whitesmoke;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2em;
+}
+
+header a {
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+
+#skills {
+  background: whitesmoke;
+  padding-bottom: 100px;
+}
+
+#skills h2 {
+  margin-bottom: 50px;
+}
+
+#skills .row {
+  padding: 20px;
+}
+
+#skills .progress {
+  margin: 20px;
+  height: 35px;
+  -webkit-box-shadow: 2px 2px 5px grey;
+          box-shadow: 2px 2px 5px grey;
+}
+
+#skills .progress .progress-bar {
+  padding: 0;
+  margin: 0;
+  background-color: #F24452;
+}
+
+#skills .progress h5 {
+  text-shadow: 0 2px 2px black;
+}
+
+.experiences {
+  background-color: #BF2A8B;
+  height: 850px;
+}
+/*# sourceMappingURL=style.css.map */

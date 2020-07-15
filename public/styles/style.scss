@@ -1,0 +1,134 @@
+// GENERAL
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.separ {
+    width: 150px;
+    height: 3px;
+    border: none;
+    background: #F24452;
+    margin: 25px auto;
+
+}
+
+#skills,
+.row {
+    padding: 50px 0;
+}
+
+// GENERAL END
+
+// ABOUT
+#about {
+    background: #392359;
+    padding: 100px;
+    color: whitesmoke;
+
+    h3 {
+        text-align: center;
+    }
+
+    .profile-picture {
+        display: flex;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .btn {
+        margin: 50px 0 0 0;
+    }
+}
+
+
+
+// HEADER
+header {
+    background: rgba(0, 0, 0, 0);
+    height: 0;
+
+    nav {
+        z-index: 1;
+    }
+
+    .navbar-brand {
+        color: whitesmoke;
+        font-family: 'Montserrat Alternates',
+            sans-serif;
+
+        font-size: 2em;
+    }
+
+    a {
+        color: whitesmoke;
+        font-size: 1.2em;
+    }
+}
+
+// HEADER END
+
+// SKILLS
+#skills {
+    background: whitesmoke;
+    // background: url(../images/preview.jpg) no-repeat center;
+    // background-size: cover;
+
+    padding-bottom: 100px;
+
+    h2 {
+        margin-bottom: 50px;
+    }
+
+    .row {
+        padding: 20px;
+        // border-radius: 15px;
+        // border: 1px solid black;
+    }
+
+    .progress {
+        margin: 20px;
+        height: 35px;
+        box-shadow: 2px 2px 5px grey;
+
+        .progress-bar {
+            padding: 0;
+            margin: 0;
+            background-color: #F24452;
+        }
+
+        h5 {
+            text-shadow: 0 2px 2px black;
+        }
+    }
+}
+
+// SKILLS END
+.experiences {
+    background-color: #BF2A8B;
+    height: 850px;
+
+}
