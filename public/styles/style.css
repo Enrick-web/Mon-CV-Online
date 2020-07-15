@@ -12,7 +12,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: bold;
   text-align: center;
 }
 
@@ -44,8 +43,8 @@ img {
   color: whitesmoke;
 }
 
-#about h3 {
-  text-align: center;
+#about h2 {
+  color: #F24452;
 }
 
 #about .profile-picture {
