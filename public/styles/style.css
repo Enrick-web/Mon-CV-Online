@@ -76,6 +76,12 @@ header {
 
 header nav {
   z-index: 1;
+  height: 80px;
+}
+
+header nav img {
+  width: 130px;
+  height: auto;
 }
 
 header .navbar-brand {

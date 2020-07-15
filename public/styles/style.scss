@@ -78,6 +78,12 @@ header {
 
     nav {
         z-index: 1;
+        height: 80px;
+
+        img {
+            width: 130px;
+            height: auto;
+        }
     }
 
     .navbar-brand {
