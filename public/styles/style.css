@@ -46,30 +46,6 @@ img {
   padding: 50px 0;
 }
 
-#about {
-  background: #392359;
-  padding: 100px;
-  color: whitesmoke;
-}
-
-#about h2 {
-  color: whitesmoke;
-}
-
-#about .profile-picture {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#about .heading {
-  text-align: center;
-}
-
-#about .btn {
-  margin: 50px 0 0 0;
-}
-
 header {
   background: rgba(0, 0, 0, 0);
   height: 0;
@@ -95,8 +71,37 @@ header a {
   font-size: 1.2em;
 }
 
+#about {
+  background: #392359;
+  padding: 100px;
+  color: whitesmoke;
+}
+
+#about h2 {
+  color: whitesmoke;
+}
+
+#about img {
+  margin-top: 80px;
+}
+
+#about .profile-picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#about .heading {
+  text-align: center;
+}
+
+#about .btn {
+  margin: 50px 0 0 0;
+}
+
 #skills {
   background: whitesmoke;
+  padding-top: 100px;
 }
 
 #skills h2 {
@@ -129,6 +134,7 @@ header a {
   height: auto;
   padding: 50px 0;
   color: white;
+  padding-top: 100px;
 }
 
 #experiences p {
