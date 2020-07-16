@@ -132,9 +132,41 @@ header {
 
 // EXPERIENCES
 #experiences {
-  background-color: #bf2a8b;
-  height: 850px;
+  background: #bf2a8b;
+  height: auto;
   padding: 50px 0;
+
+  p {
+    font-size: 20px;
+  }
+
+  .row {
+    margin: auto -30px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    padding: 20px 20px;
+
+    img {
+      border-radius: 0;
+    }
+
+    &:hover {
+      transition: background 1500ms;
+      background: #4285f4;
+      color: whitesmoke;
+      img {
+        transition: border-radius 500ms;
+        border-radius: 50%;
+        transform: scaleX(1.05);
+      }
+    }
+
+    h5 {
+      font-size: 50%;
+    }
+  }
 }
 
 // EXPERIENCES END

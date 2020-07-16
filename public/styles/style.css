@@ -124,8 +124,44 @@ header a {
 }
 
 #experiences {
-  background-color: #bf2a8b;
-  height: 850px;
+  background: #bf2a8b;
+  height: auto;
   padding: 50px 0;
+}
+
+#experiences p {
+  font-size: 20px;
+}
+
+#experiences .row {
+  margin: auto -30px;
+}
+
+#experiences .card {
+  margin-bottom: 20px;
+  padding: 20px 20px;
+}
+
+#experiences .card img {
+  border-radius: 0;
+}
+
+#experiences .card:hover {
+  -webkit-transition: background 1500ms;
+  transition: background 1500ms;
+  background: #4285f4;
+  color: whitesmoke;
+}
+
+#experiences .card:hover img {
+  -webkit-transition: border-radius 500ms;
+  transition: border-radius 500ms;
+  border-radius: 50%;
+  -webkit-transform: scaleX(1.05);
+          transform: scaleX(1.05);
+}
+
+#experiences .card h5 {
+  font-size: 50%;
 }
 /*# sourceMappingURL=style.css.map */
