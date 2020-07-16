@@ -22,6 +22,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .separ {
@@ -124,13 +125,15 @@ header a {
 }
 
 #experiences {
-  background: #bf2a8b;
+  background: #392359;
   height: auto;
   padding: 50px 0;
+  color: white;
 }
 
 #experiences p {
   font-size: 20px;
+  color: black;
 }
 
 #experiences .row {
@@ -138,7 +141,6 @@ header a {
 }
 
 #experiences .card {
-  margin-bottom: 20px;
   padding: 20px 20px;
 }
 
@@ -159,9 +161,15 @@ header a {
   border-radius: 50%;
   -webkit-transform: scaleX(1.05);
           transform: scaleX(1.05);
+  border: 2px solid rgba(255, 255, 255, 0.575);
+}
+
+#experiences .card:hover h5 {
+  color: white;
 }
 
 #experiences .card h5 {
-  font-size: 50%;
+  font-size: 20px;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

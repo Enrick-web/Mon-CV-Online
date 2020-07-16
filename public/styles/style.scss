@@ -22,6 +22,7 @@ p {
 img {
   max-width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .separ {
@@ -44,7 +45,6 @@ img {
 .row {
   padding: 50px 0;
 }
-
 // GENERAL END
 
 // ABOUT
@@ -69,6 +69,7 @@ img {
     margin: 50px 0 0 0;
   }
 }
+// ABOUT END
 
 // HEADER
 header {
@@ -96,7 +97,6 @@ header {
     font-size: 1.2em;
   }
 }
-
 // HEADER END
 
 // SKILLS
@@ -127,17 +127,18 @@ header {
     }
   }
 }
-
 // SKILLS END
 
 // EXPERIENCES
 #experiences {
-  background: #bf2a8b;
+  background: #392359;
   height: auto;
   padding: 50px 0;
+  color: white;
 
   p {
     font-size: 20px;
+    color: black;
   }
 
   .row {
@@ -145,7 +146,7 @@ header {
   }
 
   .card {
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     padding: 20px 20px;
 
     img {
@@ -160,13 +161,16 @@ header {
         transition: border-radius 500ms;
         border-radius: 50%;
         transform: scaleX(1.05);
+        border: 2px solid rgba(255, 255, 255, 0.575);
+      }
+      h5 {
+        color: white;
       }
     }
 
     h5 {
-      font-size: 50%;
+      font-size: 20px;
+      color: black;
     }
   }
 }
-
-// EXPERIENCES END
